@@ -1,6 +1,8 @@
-# Devarea — HackTheBox
+# DevArea — HackTheBox
 
 **Platform:** HackTheBox
+
+**Status: Active — walkthrough locked pending machine retirement.**
 
 ## Enumeration
 
@@ -13,13 +15,13 @@ PORT     STATE SERVICE VERSION
 80/tcp   open  http    Apache httpd 2.4.58
 8080/tcp open  http    Jetty 9.4.27.v20200227
 8500/tcp open  http    Golang net/http server (proxy)
-8888/tcp open  http    Golang net/http server (Hoverfly Dashboard)
+8888/tcp open  http    Golang net/http server
 ```
 
 Added `devarea.htb` to `/etc/hosts` and proceeded with further enumeration.
 
 ## 🔒 Walkthrough Locked
 
-This machine is still active on HackTheBox. The full writeup will be published upon retirement.
+This machine is still active on HackTheBox. Full writeup will be published on [l3dsec.com](https://l3dsec.com) upon retirement.
 
-Full walkthrough available at [l3dsec.vercel.app](https://l3dsec.vercel.app) upon retirement.
+> ⚠️ For educational purposes only. Only test systems you own or have explicit written permission to test.
